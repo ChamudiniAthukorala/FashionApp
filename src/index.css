@@ -1,13 +1,618 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#notice{
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+}
+#navbar{
+  width: 100%;
+  height: 100%;
+}
+#navbutton{
+  width: 70px;
+  height: 50px;
+}
+#middle-bar{
+  height:16px;
+  width: auto;
+  padding-top: 0px;
+}
+#searchbar{
+  width: 100%;
+}
+#column-one{
+  padding: 25px;
+  padding-left: 50px;
+}
+#column-two{
+  padding: 25px;
+  padding-right: 50px;
+}
+#column-three{
+  padding: 25px;
+  padding-left: 50px;
+}
+#column-four{
+  padding: 25px;
+  padding-right: 50px;
+  padding-left: 75px;
+}
+#column-five{
+  padding: 25px;
+  padding-left: 50px;
+}
+#column-six{
+  padding: 25px;
+  padding-right: 50px;
+  padding-left: 60px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* small */
+@media only screen and (width : 320px){
+  #medium-window{
+    display: none;
+  }
+  #small-window {
+    display: inline;
+  }
+  #Heading{
+    font-size: small;
+  }
+  #column-three{
+    display: none;
+  }
+  #column-four{
+    display: none;
+  }
+  #column-five{
+    display: none;
+
+  }#column-six{
+    display: none;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:10px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:110 ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 100%;
+  }
+  #div-column{
+    display: none;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media only screen and (width : 360px){
+  #medium-window{
+    display: none;
+  }
+  #small-window {
+    display: inline;
+  }
+  #Heading{
+    font-size: small;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:15px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:10px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 101%;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #div-column{
+    display: none;
+  }
+}
+/* small */
+@media only screen and (width : 375px){
+  #medium-window{
+    display: none;
+  }
+  #small-window{
+    padding-right: 1.5px;
+    padding-left: 0.25px;
+  }
+  #email{
+    width: 60%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:25px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 10px;
+  }
+  #subscribe{
+    height: 49px;
+    width:100px; 
+    padding: 10px;
+    margin-right:20px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 105%;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #div-column{
+    display: none;
+  }
+}
+/*small */
+@media only screen and (width : 411px){
+  #medium-window{
+    display: none;
+  }
+  #small-window{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:25px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:10px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 105%;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #div-column{
+    display: none;
+  }
+} 
+
+/*small */
+@media only screen and (width : 414px){
+  #medium-window{
+    display: none;
+  }
+  #small-window{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:30px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:10px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #div-column{
+    display: none;
+  }
+} 
+ @media only screen and (width :768px){
+  #searchbar{
+    width:fit-content;
+  }
+  #small-window{
+    display: none;
+  }
+  #medium-window{
+    display: inline;
+    padding : 25px;
+    
+  }
+  #Heading{
+    font-size: large;
+  }
+  #column-seven{
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 60px;
+  }
+  #column-eight{
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 60px;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:100px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:10px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 100%;
+  }
+  #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #small-footer{
+    display: none;
+  }
+  #div-column{
+    background-color:whitesmoke;
+  }
+}
+
+@media only screen and (width :1024px){
+  #searchbar{
+    width:fit-content;
+  }
+  #small-window{
+    display: none;
+  }
+  #medium-window{
+    display: inline;
+    padding : 25px;
+    
+  }
+  #Heading{
+    font-size: xx-large;
+  }
+  #column-seven{
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 60px;
+  }
+  #column-eight{
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 60px;
+  }
+  #email{
+    width: 63%;
+    padding : 10px;
+    padding-left:10px ;
+    margin-left:150px ;
+    border-color: lightslategrey;
+  }
+  #Subs-msg{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  #subscribe{
+    height: 478x;
+    width:99px; 
+    padding: 10px;
+    margin-left: 0px;
+    margin-right:10px ;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+  }
+  #subscriber-details{
+    background-color:linen;
+    height: 150px;
+    width: 101%;
+  }
+   #services{
+    padding: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #general{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #social{
+    padding: 10px;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    text-align: center;
+  }
+  #fb{
+    width: 30px;
+    height: 30px;
+  }
+  #insta{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  #small-footer{
+    display: none;
+  }
+  #div-column{
+    background-color:whitesmoke;
+  }
+}
+
+/* #email{
+  width: 60%;
+  padding : 20px;
+  padding-left:20px ;
+  margin-left:50px ;
+  border-color: lightslategrey;
+} */
+
+
+
+
+.content {
+  min-height: 100vh;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-collapse {
+ position: fixed;
+ left: 10px;
+ top: 10px;
+ z-index: 10; 
+}
+header, section {
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #000;
+}
+@media(min-width: 1440px) {
+  .content {
+    padding-left: 250px;
+  }
+}
+@media(max-width: 720px) {
+  .main-header {
+    font-size: 260%;
+  }
+}
+
+
+#dropdownMenuButton{
+  background-color: rgb(70, 69, 69);
 }
